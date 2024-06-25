@@ -210,7 +210,7 @@ function enqueue_custom_styles() {
     // Encolar Bootstrap CSS
     wp_enqueue_style('bootstrap-css', 'https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css');
 
-    // Encolar tu propio CSS compilado desde Sass
+    // Encolar mi propio CSS compilado desde Sass
     wp_enqueue_style('custom-styles', get_template_directory_uri() . '/styles.css');
 }
 
