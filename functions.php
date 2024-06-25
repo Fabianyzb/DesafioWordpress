@@ -205,7 +205,7 @@ endif;
 
 add_action( 'init', 'twentytwentyfour_pattern_categories' );
 
-// Lo que agrego
+// Agregar JS, CSS, Sass, Bootstrap, jQuery
 function enqueue_custom_styles() {
     // Encolar Bootstrap CSS
     wp_enqueue_style('bootstrap-css', 'https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css');
@@ -215,7 +215,7 @@ function enqueue_custom_styles() {
 }
 
 function enqueue_custom_scripts() {
-    // Encolar jQuery (si aún no está encolado)
+    // Encolar jQuery 
     wp_enqueue_script('jquery');
 
     // Encolar Bootstrap JS
