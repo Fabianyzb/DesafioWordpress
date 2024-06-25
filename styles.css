@@ -1,0 +1,52 @@
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6; }
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px; }
+
+header {
+  text-align: center;
+  margin-bottom: 40px; }
+  header h1 {
+    color: #007bff;
+    font-size: 2.5rem; }
+
+section {
+  margin-bottom: 20px; }
+  section h2 {
+    font-size: 1.75rem;
+    color: #0062cc;
+    border-bottom: 2px solid #cce5ff;
+    padding-bottom: 10px;
+    margin-bottom: 10px; }
+  section p,
+  section div {
+    font-size: 1rem;
+    color: #333; }
+  section img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px; }
+
+.project-details {
+  transition: opacity 0.5s ease-in-out;
+  opacity: 0;
+  visibility: hidden; }
+  .project-details.show {
+    opacity: 1;
+    visibility: visible; }
+
+.description-content {
+  overflow: hidden;
+  transition: max-height 0.5s ease-in-out;
+  max-height: 0; }
+
+.expand-details-btn {
+  cursor: pointer; }
+  .expand-details-btn:hover {
+    background-color: #e9ecef; }
