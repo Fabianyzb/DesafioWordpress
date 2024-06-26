@@ -1,6 +1,7 @@
 body {
   font-family: Arial, sans-serif;
-  line-height: 1.6; }
+  line-height: 1.6;
+  background-color: burlywood; }
 
 .container {
   max-width: 960px;
@@ -17,6 +18,7 @@ header {
 section {
   margin-bottom: 20px; }
   section h2 {
+    text-align: center;
     font-size: 1.75rem;
     color: #0062cc;
     border-bottom: 2px solid #cce5ff;
@@ -32,21 +34,3 @@ section {
     display: block;
     margin: 0 auto;
     border-radius: 10px; }
-
-.project-details {
-  transition: opacity 0.5s ease-in-out;
-  opacity: 0;
-  visibility: hidden; }
-  .project-details.show {
-    opacity: 1;
-    visibility: visible; }
-
-.description-content {
-  overflow: hidden;
-  transition: max-height 0.5s ease-in-out;
-  max-height: 0; }
-
-.expand-details-btn {
-  cursor: pointer; }
-  .expand-details-btn:hover {
-    background-color: #e9ecef; }

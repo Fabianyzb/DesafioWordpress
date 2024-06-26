@@ -10,7 +10,7 @@ get_header();
   <header class="mb-4 text-center">
     <h1 class="display-4"><?php the_title(); ?></h1>
   </header>
-  <main>
+  <main class="container project mt-5 bg-warning">
     <section class="mb-4">
       <h2 class="h3">Nombre del Proyecto</h2>
       <p><?php the_field('nombre_del_proyecto'); ?></p>

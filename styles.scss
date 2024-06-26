@@ -3,6 +3,7 @@ $primary-color: #007bff;
 body {
   font-family: Arial, sans-serif;
   line-height: 1.6;
+  background-color: burlywood;
 }
 
 .container {
@@ -25,6 +26,7 @@ section {
   margin-bottom: 20px;
 
   h2 {
+    text-align: center;
     font-size: 1.75rem;
     color: darken($primary-color, 10%);
     border-bottom: 2px solid lighten($primary-color, 40%);
