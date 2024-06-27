@@ -23,17 +23,16 @@ get_header();
     
     <section class="mb-4">
       <h2 class="h3">Imagen del Proyecto</h2>
-      <p>Antes de la imagen</p>
+    
       <?php 
-      $image_url = get_field('imagen_del_proyecto');
+      $image_url = get_field('imagen_del_proyecto'); // obtiene el valor del campo personalizado "imagen_del_proyecto" creado con ACF.
       
-      if ($image_url) : ?>
-        <img src="<?php echo esc_url($image_url); ?>" alt="Imagen del Proyecto" class="img-fluid rounded mx-auto d-block">
-      <?php else : ?>
-        <p>El campo de la imagen está vacío o incompleto.</p>
-      <?php endif; ?>
-      <p>Después de la imagen</p>
+      // Si el campo está configurado para devolver la URL, $image_url contendrá una cadena con la URL de la imagen.
+      ?>
+      <img src="<?php echo esc_url($image_url); ?>" alt="Imagen del Proyecto" class="img-fluid rounded mx-auto d-block">
+  
     </section>
+
   </main>
 </div>
 
