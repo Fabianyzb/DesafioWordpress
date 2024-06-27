@@ -16,7 +16,7 @@ get_header();
       <p><?php the_field('nombre_del_proyecto'); ?></p>
     </section>
     
-    <section class="mb-4">
+    <section class="mb-4 bg-secondary">
       <h2 class="h3">Descripción del Proyecto</h2>
       <div><?php the_field('descripcion_del_proyecto'); ?></div>
     </section>
